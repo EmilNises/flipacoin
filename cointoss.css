@@ -1,0 +1,34 @@
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    border: 5px solid black;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: radial-gradient(white, grey);
+}
+
+.startbild {
+    content:url("cointoss.png");
+}
+
+.coinTossKrona {
+    content:url("krona.png");
+}
+
+.coinTossKlave {
+    content:url("klave.png");
+}
+
+table {
+    align-content: center;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.blur {
+    filter: blur(5px)
+}
